@@ -1,0 +1,16 @@
+{
+    "name": "C Development Environment",
+    "image": "mcr.microsoft.com/devcontainers/cpp:1",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "bash"
+        },
+        "extensions": [
+          "ms-vscode.cpptools"
+        ]
+      }
+    }
+    "postStartCommand": "./run.sh"
+  }
+  
